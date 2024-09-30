@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*font-family: "Rancho", cursive;*/
+/*font-family: "Roboto", sans-serif;*/
+
+
+*{margin:0px;
+  padding: 0px;
+  border:0px;
+}
+
+body{background-image:url("img/fondo3.jpg"); }
+
+#nav-sociales{width: 100%;
+              height:35px;
+              /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#cc0000+0,cc7878+100 */
+background: linear-gradient(to bottom,  rgba(204,0,0,0.8) 0%,rgba(204,120,120,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#nav-sociales ul{width: 900px;
+	             margin:auto;
+	             /*border: 1px solid blue;*/
+	            
+                }
+
+
+#nav-sociales ul li{float:left;
+                    list-style-type: none;}
+
+#contenedor{width:900px;
+	        height: auto;
+	        margin:auto;/*centra al contenedor*/
+}
+
+#encabezado{background-image:url("img/header.jpg");
+            height: 206px;
+            }
+
+#botonera{height: 50px;
+          /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#d2ff52+0,a1ba35+100 */
+background: radial-gradient(ellipse at center,  rgba(210,255,82,0.6) 0%,rgba(161,186,53,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#botonera ul li{width: 223px;
+                height: 48px;
+                border: solid 1px white;
+                float: left;
+                list-style-type: none;
+                text-align: center;
+                line-height: 48px;/*centra en la vertical*/}
+
+#botonera ul li a{font-family: "Rancho", cursive;
+                  font-size: 20px;
+                  font-weight: 600;
+                  text-transform: uppercase;
+                  text-decoration: none;
+                  color:rgba(255,255,255,1.00);}
+
+#botonera ul li a:hover{text-shadow: 4px -2px 1px rgba(0,0,0,0.67);}
+
+#centro{height: 400px;
+        background-color: rgba(255,255,255,0.4);}
+
+#pie{height: 30px;
+     /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#cc0000+0,cc7878+100 */
+background: linear-gradient(to bottom,  rgba(204,0,0,1.00) 0%,rgba(204,120,120,1.00) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+    font-family:"Rancho", cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgba(255,255,255,0.4);
+    text-align: center;
+    line-height: 30px;}
+
+.cajas{width: 250px;
+      height: 300px;
+	  margin-left: 24px;
+	  margin-right: 24px;
+	  margin-top: 50px;
+	  background-color: rgba(88,77,78,0.57);
+	  float:left;
+	  
+}
+     
+
+.cajas:hover{box-shadow:8px -11px 14px 0px rgba(0,0,0,0.68);
+      -webkit-box-shadow: 8px -11px 14px 0px rgba(0,0,0,0.68);
+      -moz-box-shadow: 8px -11px 14px 0px rgba(0,0,0,0.68); }/*hover se utiliza para que cuando se posiciona el cursor se sombree*/
+
+.cajas h3{font-family:"Rancho", cursive;
+          font-size: 25px;
+          color:rgba(191,37,40,1.00);
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          text-shadow: 4px -2px 1px rgba(0,0,0,0.67);}
+	            
+              
+
+.cajas p{font-family:"Roboto", sans-serif;
+         font-size: 16px;
+         line-height: 20px;
+         text-align: justify;
+         margin-right: 10px;
+         margin-left: 10px;}
+
+
